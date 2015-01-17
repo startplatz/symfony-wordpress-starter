@@ -6,4 +6,7 @@ if [ ! -f composer.phar ]; then
 fi
 php composer.phar install
 rm -rf /var/www/html
-ln -s /root/web /var/www/html
+ln -s /host/web /var/www/html
+
+echo "Options FollowSymLinks" > /etc/apache2/conf-enabled/enable-symlinks.conf
+sudo service apache2 restart
