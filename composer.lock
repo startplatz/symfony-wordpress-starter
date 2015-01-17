@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4cf432a017b00f2ca74814a562e2647b",
+    "hash": "446722cbd706c9d415375a581abf5e8c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -653,17 +653,17 @@
         },
         {
             "name": "startplatz/wordpress-integration-bundle",
-            "version": "1.0.3",
+            "version": "dev-master",
             "target-dir": "Startplatz/Bundle/WordpressIntegrationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/startplatz/wordpress-integration-bundle.git",
-                "reference": "0d8090e75322f14fc5f9fde5cacca3f4209f49f7"
+                "reference": "d69c533b9563b3520101b2ff4778dfe75c192a86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/startplatz/wordpress-integration-bundle/zipball/0d8090e75322f14fc5f9fde5cacca3f4209f49f7",
-                "reference": "0d8090e75322f14fc5f9fde5cacca3f4209f49f7",
+                "url": "https://api.github.com/repos/startplatz/wordpress-integration-bundle/zipball/d69c533b9563b3520101b2ff4778dfe75c192a86",
+                "reference": "d69c533b9563b3520101b2ff4778dfe75c192a86",
                 "shasum": ""
             },
             "require": {
@@ -703,7 +703,7 @@
                 "symfony",
                 "wordpress"
             ],
-            "time": "2015-01-17 14:37:33"
+            "time": "2015-01-17 16:13:16"
         },
         {
             "name": "symfony/symfony",
@@ -882,7 +882,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "startplatz/wordpress-integration-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

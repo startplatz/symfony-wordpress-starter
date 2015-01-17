@@ -1,8 +1,13 @@
 {
     "require": {
         "symfony/symfony": "~2.6",
-        "startplatz/wordpress-integration-bundle": "~1.0",
+        "startplatz/wordpress-integration-bundle": "dev-master",
         "sensio/framework-extra-bundle": "~2.3",
         "johnpbloch/wordpress": "~4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
     }
 }

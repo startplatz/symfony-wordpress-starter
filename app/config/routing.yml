@@ -1,0 +1,2 @@
+demo:
+    resource: "@StartplatzWordpressIntegrationDemoBundle/Resources/config/routing.yml"

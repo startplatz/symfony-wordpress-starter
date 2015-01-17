@@ -1,0 +1,4 @@
+demo_landingpage:
+    pattern: /
+    defaults:
+        _controller: StartplatzWordpressIntegrationDemoBundle:LandingPage:index
