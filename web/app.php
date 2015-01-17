@@ -2,7 +2,7 @@
 
 use Symfony\Component\HttpFoundation\Request;
 
-require_once __DIR__.'/../app/AppKernel.php';
+require_once(__DIR__ . '/../app/bootstrap.php');
 
 $kernel = new AppKernel('prod', false);
 $kernel->loadClassCache();

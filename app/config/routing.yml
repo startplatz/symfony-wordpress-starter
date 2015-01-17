@@ -1,2 +1,6 @@
 demo:
     resource: "@StartplatzWordpressIntegrationDemoBundle/Resources/config/routing.yml"
+
+wordpress:
+    resource: "@StartplatzWordpressIntegrationBundle/Controller"
+    type: annotation

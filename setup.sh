@@ -12,3 +12,6 @@ echo "Options FollowSymLinks" > /etc/apache2/conf-enabled/enable-symlinks.conf
 sudo service apache2 restart
 
 sudo chmod -R a+rwx app/logs app/cache
+sudo chmod a+x app/console
+
+sudo -u www-data app/console startplatz:wordpress-integration:build-global-names-cache
