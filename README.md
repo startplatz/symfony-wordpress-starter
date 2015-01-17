@@ -9,5 +9,5 @@ git checkout https://github.com/startplatz/symfony-wordpress-starter.git
 cd symfony-wordpress-starter
 vagrant up
 ```
-* Open [192.168.33.10](192.168.33.10) in your browser
+* Open [192.168.33.10](http://192.168.33.10) in your browser
 
