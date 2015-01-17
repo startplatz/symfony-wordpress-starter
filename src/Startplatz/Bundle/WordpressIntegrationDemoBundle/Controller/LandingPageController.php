@@ -10,6 +10,12 @@ class LandingPageController extends Controller
 
     public function indexAction()
     {
-        return new Response('hello world');
+        return new Response('
+
+            hello!
+
+            open <a href="./admin/">Wordpress Setup</a>!
+
+        ');
     }
 }
