@@ -1,3 +1,5 @@
 /.vagrant
 /.idea
 /composer.phar
+/vendor
+/wordpress
