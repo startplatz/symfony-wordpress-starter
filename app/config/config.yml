@@ -14,5 +14,5 @@ framework:
 #    debug:            "%kernel.debug%"
 #    strict_variables: "%kernel.debug%"
 
-startplatz_wordpress_integration:
-    wordpress_root_dir: %kernel.root_dir%/../wordpress
+#startplatz_wordpress_integration:
+#    wordpress_root_dir: %kernel.root_dir%/../wordpress
