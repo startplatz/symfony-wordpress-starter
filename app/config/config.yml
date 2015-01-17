@@ -1,0 +1,18 @@
+imports:
+    - { resource: parameters.yml }
+
+framework:
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+    templating:
+        engines: ['twig']
+#    default_locale:  "%locale%"
+
+# Twig Configuration
+#twig:
+#    debug:            "%kernel.debug%"
+#    strict_variables: "%kernel.debug%"
+
+startplatz_wordpress_integration:
+    wordpress_root_dir: %kernel.root_dir%/../wordpress
