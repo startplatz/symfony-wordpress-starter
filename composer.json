@@ -1,0 +1,8 @@
+{
+    "require": {
+        "symfony/symfony": "~2.6",
+        "startplatz/wordpress-integration-bundle": "~1.0",
+        "sensiolabs/framework-extra-bundle": "~3.0",
+        "johnpbloch/wordpress": "~4.1"
+    }
+}
